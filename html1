@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Result</title>
-	</head>
-	<body><h1>YEAH SANDWICHES</h1>
-	<img src="http://bit.ly/RhrMEn" />
-		<p>I like eggs.</p>
-		<p>哈哈啊啊</p>
-		<p>But mostly sandwiches.</p>
-	</body>
-</html>
+   <head>
+    <meta charset="utf-8">
+	<title>进入网站</title>
+    <link rel="stylesheet" href="stylesheet/style3.css" type="text/css">
+   </head>
+ <body>
+ <nav class="nav">
+<ul>
+    <li ><a href="blog2.html">副页</a></li>
+	<li><a href="firstblog.html">主页</a></li>
+	<li><a href="text1.html">吴亦凡</a></li>
+	<li><a href="third.html">张日天</a></li>
+	<li class="selected"><a href="js.html">叼神</a></li>	
+</ul>
+</nav>
+ <article>
+ <h1>图片</h1>
+ <div id="newpic">
+ <ul id="pic">
+ <li>
+     <a href="image/1.jpg"  title="新垣结衣"><img src="image/1.jpg"  ></a>
+ </li>
+ <li>
+     <a href="image/2.jpg"  title="i6"><img src="image/2.jpg"/></a>
+ </li>
+ <li>
+     <a href="image/3.jpg"  title="eson"><img src="image/3.jpg" /></a>
+ </li>
+ <li id="four">
+     <a href="image/4.jpg" title="林允儿"><img src="image/4.jpg" / ></a>
+ </li>
+ </ul>
+</div> 
+</article>
+ <footer>
+	@copy;2015,ARchen
+	<br>
+	我于2016年8月2号在广东省海丰县汕尾市写下此文，希望这一年平安顺利
+	过上自己想要的生活
+</footer>
+ <script src="js/1.js" type="text/javascript">
+ </script>
+ </body>
+ </html>
